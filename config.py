@@ -4,24 +4,24 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 27353035))
-API_HASH = getenv("API_HASH", "cf2a75861140ceb746c7796e07cbde9e")
+API_ID = int(getenv("API_ID", 11825363))
+API_HASH = getenv("API_HASH", "d640a874df6124016e00679f96f83623")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", "5311223486"))
+OWNER_ID = int(getenv("OWNER_ID", "6280962498"))
 MONGO_URL = getenv("MONGO_URL", None)
-SUPPORT_GRP = getenv("SUPPORT_GRP", "tmm_support_chat")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "tmm_heroku_world")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "moh_maya_offical")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/friend_zone_group")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "https://t.me/our_bot_updates")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "aimforaiims07")
 
 # Random Start Images
 IMG = [
-    "https://graph.org/file/570e6b36b6962d8f369a2.jpg",
-    "https://te.legra.ph/file/5bf629d10afd4af953585.jpg",
-    "https://te.legra.ph/file/7a321b99fe99d9d8b5117.jpg",
-    "https://te.legra.ph/file/c482a7e55b459ffe07502.jpg",
-    "https://telegra.ph//file/0879fbdb307005c1fa8ab.jpg",
-    "https://telegra.ph//file/19e3a9d5c0985702497fb.jpg",
-    "https://telegra.ph//file/b5fa277081dddbddd0b12.jpg",
+    "https://graph.org/file/6ba32a913331485e26964.jpg",
+    "https://graph.org/file/111d3221048985c393b73.jpg",
+    "https://graph.org/file/bb0991cb7956d1f00ab20.jpg",
+    "https://graph.org/file/55a9c98a067e0894482e7.jpg",
+    "https://graph.org/file/83f9b7904dcf5a6bf7e37.jpg",
+    "https://graph.org/file/e7a23c728027440678374.jpg",
+    "https://graph.org/file/e44f38823b9c79b0dbf7d.jpg",
     "https://telegra.ph//file/96e96245fe1afb82d0398.jpg",
     "https://telegra.ph//file/fb140807129a3ccb60164.jpg",
     "https://telegra.ph//file/09c9ea0e2660efae6f62a.jpg",
@@ -70,15 +70,15 @@ STICKER = [
 ]
 
 EMOJIOS = [
-    "💣",
-    "💥",
-    "🪄",
-    "🧨",
-    "⚡",
-    "🤡",
+    "🥰",
+    "😍",
+    "🤭",
+    "😁",
+    "😎",
+    "🥺",
     "👻",
-    "🎃",
-    "🎩",
+    "☹️",
+    "🙄",
     "🕊",
     "🦋",
     "🥀",
